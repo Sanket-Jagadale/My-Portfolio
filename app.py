@@ -36,5 +36,11 @@ def robots_txt():
 def sitemap_xml():
     return send_from_directory(BASE_DIR, 'sitemap.xml')
 
+
+# Serve Google Search Console verification file(s) placed at project root
+@app.route('/google8090a1307bb3d0a4.html')
+def google_verify():
+    return send_from_directory(BASE_DIR, 'google8090a1307bb3d0a4.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
