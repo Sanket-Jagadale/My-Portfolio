@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sanketjportfolio.vercel.app/sitemap.xml
+Host: sanketjportfolio.vercel.app
