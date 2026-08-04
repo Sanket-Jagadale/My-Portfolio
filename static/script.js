@@ -51,10 +51,10 @@ window.addEventListener('scroll', () => {
 // ---- Typing Animation ----
 const typedEl = document.getElementById('typedText');
 const phrases = [
-  'scalable MERN apps',
-  'AI-powered features',
+  'UI/UX Designer',
   'clean, fast UIs',
-  'full-stack products',
+  'AI-powered features',
+  'scalable MERN apps',
 ];
 let phraseIndex = 0, charIndex = 0, isDeleting = false;
 
